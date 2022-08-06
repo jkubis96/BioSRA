@@ -1,4 +1,4 @@
-# The BioSRA - easy SRA file downloading and converting
+# The BioSRA - easy SRA files downloading and converting
 
 
 <p align="right">
@@ -129,5 +129,10 @@ Select: 3
 SRAtoFAST_download SraAccList.txt
 ```
 
+#### 4. Wait for downloading and converting all files
+
+<p align="center">
+<img  src="https://github.com/jkubis96/BioSRA/blob/main/fig/s8.bmp" alt="drawing" width="600" />
+</p>
 
 
