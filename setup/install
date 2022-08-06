@@ -1,0 +1,21 @@
+#!/bin/bash
+
+function install {
+
+sudo mkdir -p /usr/bin/BioSRA
+
+sudo wget --directory-prefix=/usr/bin/BioSRA/ https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/3.0.0/sratoolkit.3.0.0-ubuntu64.tar.gz
+
+sudo tar -vxzf /usr/bin/BioSRA/sratoolkit.3.0.0-ubuntu64.tar.gz --directory /usr/bin/BioSRA/
+
+sudo sudo rm /usr/bin/BioSRA/sratoolkit.3.0.0-ubuntu64.tar.gz
+
+sudo cp -R scripts/ /usr/bin/BioSRA/
+
+sudo apt update
+sudo apt install parallel
+
+echo 'export PATH=/usr/bin/BioSRA/sratoolkit.3.0.0-ubuntu64/bin:$PATH' >>  ~/.bashrc
+echo 'export PATH=/usr/bin/BioSRA/scripts:$PATH' >>  ~/.bashrc
+
+}

@@ -1,0 +1,9 @@
+#!/bin/bash  
+
+
+cpu=$(grep -c ^processor /proc/cpuinfo)
+cpu=$[$cpu-2]
+
+
+parallel --progress  -j $cpu bash SRA_dowload_to_fastq  {} < $1
+  

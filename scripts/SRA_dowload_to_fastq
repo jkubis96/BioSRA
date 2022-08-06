@@ -1,0 +1,11 @@
+#!/bin/bash  
+
+
+prefetch $1
+cd $1
+yourfilenames=`ls -l | awk '{print $9}'`
+fastq-dump $yourfilenames --split-3 --gzip
+echo '1'
+mv *.gz ../
+rm -rf ../$1
+

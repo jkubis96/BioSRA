@@ -1,0 +1,51 @@
+#!/bin/bash
+
+echo ''
+
+echo 'The BioSRA is tools for multiprocessing downloading SRA files with converting to *.fastq.gz format'
+
+echo 'The BioSRA is a part of JBioSystem® project for solutions and tools in the life science data analysis'
+
+
+echo 'Contact: jkubis@ibch.poznan.pl or jakub.kubis1996@gmail.com'
+
+echo ''
+echo ''
+
+
+	
+
+echo ''
+echo 'Select option'
+echo ''
+
+PS3="Select: "
+
+select opt in install vdb-configuration quit; do
+
+  case $opt in
+    install)
+	
+		source=$(pwd)/setup/install
+        source $source
+		install
+
+	
+      ;;
+    vdb-configuration)
+	
+		
+	  vdb-config -i 
+	  
+      ;;
+    quit)
+      
+	  exec bash
+	  
+      ;;
+    *) 
+      echo "Invalid option $REPLY"
+      ;;
+  esac
+done
+	
