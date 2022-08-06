@@ -1,6 +1,5 @@
-# GEDSpy - python library
+# The BioSRA - easy SRA file downloading and converting
 
-#### GEDSpy is the python library for gene list enrichment with genes ontology, pathways and potential drugs
 
 <p align="right">
 <img  src="https://github.com/jkubis96/GEDSpy/blob/main/fig/logo_jbs.PNG?raw=true" alt="drawing" width="250" />
@@ -19,7 +18,7 @@
 ## Description
 
 
-<div align="justify"> The BioSRA was developed for an easy way of multiprocessing downloading SRA files with converting to *.fastq.gz format </div>
+<div align="justify"> The BioSRA was developed for multiprocessing downloading SRA files with converting to *.fastq.gz format </div>
 <div align="justify"> The BioSRA uses SRAtoolkit with the NCBI tools license. See license [https://github.com/ncbi/sra-tools] </div>
 
 
@@ -54,7 +53,7 @@ Select: 1
 ```
 
 <p align="center">
-<img  src="https://github.com/jkubis96/GEDSpy/blob/main/fig/pathways_pathway.png?raw=true" alt="drawing" width="600" />
+<img  src="https://github.com/jkubis96/BioSRA/blob/main/fig/s4.bmp" alt="drawing" width="600" />
 </p>
 
 
@@ -65,7 +64,7 @@ Select: 2
 ```
 
 <p align="center">
-<img  src="https://github.com/jkubis96/GEDSpy/blob/main/fig/pathways_pathway.png?raw=true" alt="drawing" width="600" />
+<img  src="https://github.com/jkubis96/BioSRA/blob/main/fig/s5.bmp" alt="drawing" width="600" />
 </p>
 
 ```
@@ -73,7 +72,7 @@ Select: e
 ```
 
 <p align="center">
-<img  src="https://github.com/jkubis96/GEDSpy/blob/main/fig/pathways_pathway.png?raw=true" alt="drawing" width="600" />
+<img  src="https://github.com/jkubis96/BioSRA/blob/main/fig/s1.bmp" alt="drawing" width="600" />
 </p>
 
 ```
@@ -81,24 +80,23 @@ Select: s
 ```
 
 <p align="center">
-<img  src="https://github.com/jkubis96/GEDSpy/blob/main/fig/pathways_pathway.png?raw=true" alt="drawing" width="600" />
+<img  src="https://github.com/jkubis96/BioSRA/blob/main/fig/s2.bmp" alt="drawing" width="600" />
 </p>
 
 ```
 Select: o
 ```
 
+
 <p align="center">
-<img  src="https://github.com/jkubis96/GEDSpy/blob/main/fig/pathways_pathway.png?raw=true" alt="drawing" width="600" />
+<img  src="https://github.com/jkubis96/BioSRA/blob/main/fig/s3.bmp" alt="drawing" width="600" />
 </p>
+
 
 ```
 Select: x
 ```
 
-<p align="center">
-<img  src="https://github.com/jkubis96/GEDSpy/blob/main/fig/pathways_pathway.png?raw=true" alt="drawing" width="600" />
-</p>
 
 #### Quit:
 
@@ -107,7 +105,7 @@ Select: 3
 ```
 
 <p align="center">
-<img  src="https://github.com/jkubis96/GEDSpy/blob/main/fig/pathways_pathway.png?raw=true" alt="drawing" width="600" />
+<img  src="https://github.com/jkubis96/BioSRA/blob/main/fig/s6.bmp" alt="drawing" width="600" />
 </p>
 
 
