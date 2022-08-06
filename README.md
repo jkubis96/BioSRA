@@ -119,6 +119,10 @@ Select: 3
 
 #### 2. Download SraAccList.txt from Sequence Read Archive
 
+<p align="center">
+<img  src="https://github.com/jkubis96/BioSRA/blob/main/fig/s7.bmp" alt="drawing" width="600" />
+</p>
+
 #### 3. Run function
 
 ```
