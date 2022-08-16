@@ -18,4 +18,6 @@ sudo apt install parallel
 echo 'export PATH=/usr/bin/BioSRA/sratoolkit.3.0.0-ubuntu64/bin:$PATH' >>  ~/.bashrc
 echo 'export PATH=/usr/bin/BioSRA/scripts:$PATH' >>  ~/.bashrc
 
+exec bash
+
 }
