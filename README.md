@@ -46,6 +46,13 @@ cd BioSRA
 ./run
 ```
 
+* if you see 'Permission denied' try:
+
+```
+chmod u+r+x run
+./run
+```
+
 #### Run installation:
 
 ```
